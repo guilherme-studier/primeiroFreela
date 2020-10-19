@@ -1,0 +1,43 @@
+header .dropdown .dropdown-open::before{background: url(../../images/ico/dropdown-header-open.png) center no-repeat;}
+  header .dropdown.is-active .dropdown-open::before{background: url(../../images/ico/dropdown-header-close.png) center no-repeat;}
+  .slideshow-side{background: url(../../images/pht/pht-06.png) center no-repeat;background-size: cover;}
+  .slideshow-caption{bottom: unset !important;}
+  .slideshow-caption p{text-align: left !important;}
+  .back-image-text.back-image-text-1 {background: url(../../images/pht/ambiente-interno.png) center no-repeat;background-size: cover;height: auto;padding: 50px 0px;}
+  .back-image-text.back-image-text-2 {background: url(../../images/pht/imagem-covid.png) center no-repeat;background-size: cover;height: auto;padding: 50px 0px;}
+  .back-image-blue{height: auto;padding: 50px 0px;}
+  .back-image-text .vertical-center,
+  .back-image-blue .vertical-center{top: unset !important;transform: unset !important;}
+  .objeto-flechas{width: auto;margin: 0px auto;text-align: center;margin: 30px 0px;background: #0b4468;padding: 30px 30px 20px 30px;color: #fff;text-align: left;}
+  .objeto-flechas .objeto-flechas-item:first-of-type{margin-bottom: 30px;}
+  .objeto-flechas .objeto-flechas-item b:first-of-type {background: #fff;padding: 5px;color: #0b4468;}
+  /* MÃO NA MASSA */
+  .pushing .dropdown {padding-bottom: 50px;position: relative;}
+  .dropdown {margin: 0 auto;position: relative;width: 100%;}
+  .pushing .dropdown .dropdown-open {position: relative;text-align: center;}
+  .dropdown-open {cursor: pointer;display: block;}
+  .pushing .dropdown .dropdown-open img {max-width: 358px;width: 100%;}
+  .hands-on .dropdown .dropdown-open:before {background: #3d454e url(../../images/ico/ico-dropdown-open.png) center no-repeat;border-radius: 7px;bottom: -39px;content: '';height: 29px;left: 50%;position: absolute;width: 29px;-webkit-transform: translateX(-50%);-ms-transform: translateX(-50%);transform: translateX(-50%);-webkit-transition: .3s ease;-o-transition: .3s ease;transition: .3s ease;}
+  .hands-on .dropdown .dropdown-open:after {border: 3px solid #3d454e;border-radius: 7px;bottom: -37px;content: '';height: 25px;left: calc(50% - 13px);position: absolute;width: 25px;-webkit-transition: .3s ease;-o-transition: .3s ease;transition: .3s ease;-webkit-animation-duration: 2s;animation-duration: 2s;-webkit-animation-iteration-count: infinite;animation-iteration-count: infinite;-webkit-animation-name: pulse;animation-name: pulse;-webkit-box-sizing: border-box;box-sizing: border-box;} 
+  .pushing .dropdown .dropdown-title p {font-size: 2.5em;font-weight: 900;text-transform: uppercase;line-height: 1.2em;margin-top: 50px;text-align: center;}
+  .link-download{background: #0b4468;color: #fff;text-decoration: none;padding: 5px 7px;text-transform: uppercase;font-size: 80%;font-weight: bold !important;}
+  .back-image-blue{background: url(../../images/pht/back-blue.png) bottom center no-repeat;background-size: cover}
+  .content-box {background: #fff;border: 1.5px solid #23ade7;padding: 25px;}
+  .img-default{width: auto;max-width: 100%;}
+  .div-texto{width: 30%;position: absolute;}
+  .div-texto-1{left: 10%;}
+  .div-texto-2{right: 10%;}
+  /* CARDS MISSÃO */
+  .card-missao {background: #ffc400;margin-bottom: 20px;}
+  .card-missao .card-open {bottom: 10px;}
+  .card-missao h3 {text-transform: uppercase;padding: 15px;}
+  .card-missao .card-back {background: #06638c;padding: 20px;font-weight: bold;}
+  .card-back.text-center.back-blue a {color: #fff;word-break: break-word;}
+  .card-missao  .card-open {bottom: 10px !important;}
+  /* TABLE */
+  table th {background: #0b4468;color: #fff !important;font-weight: bold;text-transform: uppercase;font-size: 85%;}
+  table tbody tr {background: #ededec;color: #000;font-size: 85%;}
+  td, th{padding: 5px 10px !important;}
+  table td input[type="text"] {background: #f3f3f3;border: 1px solid #b7b7b7;font-size: 16px;padding: 50px 100px !important; margin: 0px;width: 100%;}
+  .text-and-input {display: flex;align-items: center;}
+  .text-and-input p{margin-right: 5px;}

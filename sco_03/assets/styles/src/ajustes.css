@@ -1,0 +1,117 @@
+
+.back-image-text {
+    background: url(./assets/images/pht/back-olho-pronto-2.png) center no-repeat;
+    background-size: cover;
+    height: 310px;
+  }
+  
+  /* RECURSOS DAS PERGUNTAS */
+  .box-pergunta{
+    background: #fff;
+    padding: 15px 20px 20px 20px;
+    margin: 50px 0px 10px 0px;
+  }
+  
+  .box-pergunta .pergunta{margin-bottom: 20px;}
+  
+  .box-pergunta .pergunta .pergunta-radio-buttons{display: flex;align-items: center;}
+  
+  .box-pergunta .pergunta .pergunta-radio-buttons label{display: flex;align-items: center;margin-right: 20px;cursor: pointer;}
+  
+  .box-pergunta .pergunta .pergunta-radio-buttons label p{margin-left: 10px;margin-bottom: 0px;}
+  
+  .box-pergunta .feedback{
+    display: none;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background: #035cab;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .box-pergunta button.btn {
+    border: 0px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: .2s all;
+  }
+  
+  .box-pergunta button.btn {
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .box-pergunta button.btn.desabled{pointer-events: none;opacity: .5;}
+  
+  .box-pergunta button.btn.btn-send{color: #fff;background: #035cab;}
+  .box-pergunta button.btn.btn-send:hover{background: #164567;}
+
+  .pushing .dropdown .dropdown-open {position: relative;text-align: center;}
+  .dropdown-open {cursor: pointer;display: block;}
+  a{-webkit-tap-highlight-color: transparent;}
+  .pushing .dropdown .dropdown-open:before {
+    background: #3d454e url(../../images/ico/ico-dropdown-open.png) center no-repeat;
+    border-radius: 7px;
+    bottom: -39px;
+    content: "";
+    height: 29px;
+    left: 50%;
+    position: absolute;
+    width: 29px;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+*,
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.pushing .dropdown .dropdown-open:after {
+    border: 3px solid #3d454e;
+    border-radius: 7px;
+    bottom: -37px;
+    content: "";
+    height: 25px;
+    left: calc(50% - 13px);
+    position: absolute;
+    width: 25px;
+    -webkit-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*,
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.pushing .dropdown .dropdown-title p {
+    font-size: 2.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    margin-top: 50px;
+    text-align: center;
+}
+.pushing .dropdown .dropdown-open:before {
+    background: #3d454e url(../../images/ico/ico-dropdown-open.png) center no-repeat;
+}

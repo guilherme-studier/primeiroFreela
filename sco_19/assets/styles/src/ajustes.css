@@ -1,0 +1,54 @@
+
+.back-image-text {
+    background: url(../../images/pht/back-olho-pronto-2.png) center no-repeat;
+    background-size: cover;
+    height: 310px;
+  }
+  
+  /* RECURSOS DAS PERGUNTAS */
+  .box-pergunta{
+    background: #fff;
+    padding: 15px 20px 20px 20px;
+    margin: 50px 0px 10px 0px;
+  }
+  
+  .box-pergunta .pergunta{margin-bottom: 20px;}
+  
+  .box-pergunta .pergunta .pergunta-radio-buttons{display: flex;align-items: center;}
+  
+  .box-pergunta .pergunta .pergunta-radio-buttons label{display: flex;align-items: center;margin-right: 20px;cursor: pointer;}
+  
+  .box-pergunta .pergunta .pergunta-radio-buttons label p{margin-left: 10px;margin-bottom: 0px;}
+  
+  .box-pergunta .feedback{
+    display: none;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background: #035cab;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .box-pergunta button.btn {
+    border: 0px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: .2s all;
+  }
+  
+  .box-pergunta button.btn {
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .box-pergunta button.btn.desabled{pointer-events: none;opacity: .5;}
+  
+  .box-pergunta button.btn.btn-send{color: #fff;background: #035cab;}
+  .box-pergunta button.btn.btn-send:hover{background: #164567;}
+  

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>SEBRAE</title>
+  <link rel="stylesheet" href="assets/styles/dist/framework.min.css" media="screen">
+  <link rel="stylesheet" href="assets/styles/dist/global.min.css" media="screen">
+  <link rel="stylesheet" href="assets/styles/src/ajustes.css" media="screen">
+  <script src="assets/scripts/dist/modernizr.js"></script>
+</head>
+
+<body class="body" data-scorm-type="activity">
+
+<!-- CABECALHO -->
+<header>
+  <!--Nav - Início-->
+  <div class="back-blue-dark">
+    <div class="content-1024">
+      <!-- Dropdown - Início -->
+      <div class="dropdown py-10">
+        <a class="dropdown-open">
+          <p class="color-white"><strong>Clique aqui para ver onde você está dentro do curso e qual o seu caminho</strong></p>
+        </a>
+        <div class="dropdown-content">
+          <p class="color-white"><strong>Curso <span class="color-yellow"> Planejamento e Estratégias</strong></span></p>
+          <div class="nav">
+            <ul>
+              <li>
+                <a class="color-white"><em>Abertura do curso</em></a>
+              </li>
+              <li>
+                <a class="color-white"><em>Módulo 1 | Qual lucro que desejo?</em></a>
+              </li>
+
+              <li>
+                <a class="color-white"><em>Módulo 2 | Construindo pontes entre o hoje e o amanhã</em></a>
+              </li>
+
+              <li>
+                <a class="color-white checked"><em>Módulo 3 | Execução</em></a>
+              </li>
+
+              <li><a class="color-white"><em>Encerramento do curso</em></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Dropdown - Fim -->
+    </div>
+  </div>
+  <!--Nav - fim-->
+  <div class="header">
+    <div class="header-back">
+      <div class="vertical-center">
+        <div class="content-1024" data-aos="fade-right">
+          <div class="pt-40">
+            <div class="grid-12">
+              <h1 class="color-white">Atividade de Aprendizagem</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="assets/images/pht/pht-02.png" class="content-image">
+    </div>
+
+    <button class="btn-start back-blue-light content-desk">
+      <img class="animate animate-infinite animate-wobble-vertical" src="assets/images/ico/ico-arrow-header.png">
+    </button>
+  </div>
+</header>
+<!-- end CABECALHO -->
+<!-- BACK BLUE BOTTOM -->
+<div class="py-60 back-blue-top">
+  <div class="content-800 text-center" data-aos="fade-down">
+    <h2 class="color-white" style="text-transform: uppercase;font-weight: 900;"><em>Antes de seguir para o encerramento, que tal testar um pouco o que você aprendeu aqui no curso <strong class="color-yellow">Planejamento e Estratégias</strong>?</em></h2>
+  </div>
+
+  <div class="content-800 pt-50" data-aos="fade-up">
+    <p>São questões objetivas de única escolha e você terá <strong>uma tentativa</strong> para responder corretamente cada uma delas. Vamos lá?</p>
+  </div>
+  <!-- end BACK BLUE BOTTOM -->
+</div>
+<!-- end Final -->
+
+  <script src="assets/scripts/dist/polyfill.min.js"></script>
+  <script src="assets/scripts/dist/jquery-3.2.1.min.js"></script>
+  <script src="assets/scripts/dist/SCOFunctions.js"></script>
+  <script src="assets/scripts/dist/framework.min.js"></script>
+  <script src="assets/scripts/dist/framework-scorm.min.js"></script>
+  <script src="assets/scripts/dist/global.min.js"></script>
+
+  <script>
+    $('input[type=radio]').change(function() {
+      if ($('input:checked').length >= 5) {
+        // HABILITAR BOTÃO DE ENVIAR
+        $(".btn-send").removeClass('desabled');
+      }else{
+        $(".btn-send").addClass('desabled');
+      }
+    });
+    $(".btn-send").click(function(){
+      $(".feedback").slideDown();
+    });
+  </script>
+
+</body>
+</html>

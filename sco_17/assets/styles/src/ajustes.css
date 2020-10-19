@@ -1,0 +1,30 @@
+.back-image-blue {background: url(../../images/pht/back-blue.png) bottom center no-repeat;background-size: cover;}
+  header .dropdown .dropdown-open::before{background: url(../../images/ico/dropdown-header-open.png) center no-repeat;}
+  header .dropdown.is-active .dropdown-open::before{background: url(../../images/ico/dropdown-header-close.png) center no-repeat;}
+  .back-image-text {background: url(../../images/pht/BACK-MULHER.png) center no-repeat;background-size: cover;height: 544px;  }
+  .back-image-yellow{padding-bottom: 0px !important;}
+  .back-image-yellow::before {content: '';position: absolute;background: url(../../images/pht/linha-amarela.png) center no-repeat;background-size: cover;height: 287px;width: 339px;right: 10px;top: calc(50% - 350px);  }
+  .back-image-yellow p strong{color: #00508e !important;}
+  .line-yellow:before {background: #fff614;  }
+  .line:before {bottom: 0;  border-radius: 10px;  content: '';  height: 10px;  position: absolute;  width: 95px;  }
+  .marcacao {width: 100%;padding: 100px 0 100px 0;background-color: #ccc;text-align: center;font-size: 2em;  }
+  .back-content {background: url(../../images/pht/pht-03.png) bottom center no-repeat;background-size: cover;height: auto;padding: 0px;overflow: hidden;  }
+  .header::before {position: absolute;content: '';background: url(../../images/pht/pht-04.png) center no-repeat;width: 1280px;height: 530px;z-index: 1;left: calc(50% - 440px);}
+  .pushing .dropdown {padding-bottom: 50px;position: relative;}
+  .dropdown {margin: 0 auto;position: relative;width: 100%;}
+  .pushing .dropdown .dropdown-open {position: relative;text-align: center;}
+  .dropdown-open {cursor: pointer;display: block;}
+  .pushing .dropdown .dropdown-open img {max-width: 358px;width: 100%;}
+  .hands-on .dropdown .dropdown-open:before {background: #3d454e url(../../images/ico/ico-dropdown-open.png) center no-repeat;border-radius: 7px;bottom: -39px;content: '';height: 29px;left: 50%;position: absolute;width: 29px;-webkit-transform: translateX(-50%);-ms-transform: translateX(-50%);transform: translateX(-50%);-webkit-transition: .3s ease;-o-transition: .3s ease;transition: .3s ease;}
+  .hands-on .dropdown .dropdown-open:after {border: 3px solid #3d454e;border-radius: 7px;bottom: -37px;content: '';height: 25px;left: calc(50% - 13px);position: absolute;width: 25px;-webkit-transition: .3s ease;-o-transition: .3s ease;transition: .3s ease;-webkit-animation-duration: 2s;animation-duration: 2s;-webkit-animation-iteration-count: infinite;animation-iteration-count: infinite;-webkit-animation-name: pulse;animation-name: pulse;-webkit-box-sizing: border-box;box-sizing: border-box;} 
+  .pushing .dropdown .dropdown-title p {font-size: 2.5em;font-weight: 900;text-transform: uppercase;line-height: 1.2em;margin-top: 50px;text-align: center;}
+  .link-download{background: #0b4468;color: #fff;text-decoration: none;padding: 5px 7px;text-transform: uppercase;font-size: 80%;font-weight: bold !important;}
+  .back-image-blue{background: url(../../images/pht/back-blue.png) bottom center no-repeat;background-size: cover}
+  table th {background: #0b4468;color: #fff !important;font-weight: bold;text-transform: uppercase;font-size: 90%;}
+  table tbody tr {background: #ededec;color: #000;font-size: 90%;}
+  .pushing .dropdown .dropdown-open:before {background: #3d454e url(../../images/ico/ico-dropdown-open.png) center no-repeat;border-radius: 7px;bottom: -39px;content: "";height: 29px;left: 50%;position: absolute;width: 29px;webkit-transform: translateX(-50%);ms-transform: translateX(-50%);transform: translateX(-50%);webkit-transition: 0.3s ease;o-transition: 0.3s ease;transition: 0.3s ease}
+  *,:after,:before {-webkit-box-sizing: border-box;box-sizing: border-box;}
+  .pushing .dropdown .dropdown-open:after {border: 3px solid #3d454e;border-radius: 7px;bottom: -37px;content: "";height: 25px;left: calc(50% - 13px);position: absolute;width: 25px;webkit-transition: 0.3s ease;o-transition: 0.3s ease;transition: 0.3s ease;webkit-animation-duration: 2s;animation-duration: 2s;webkit-animation-iteration-count: infinite;animation-iteration-count: infinite;webkit-animation-name: pulse;animation-name: pulse;webkit-box-sizing: border-box;box-sizing: border-box;}
+  *,:after,:before {-webkit-box-sizing: border-box;box-sizing: border-box;}
+  .pushing .dropdown .dropdown-title p {font-size: 2.5em;font-weight: 900;text-transform: uppercase;line-height: 1.2em;margin-top: 50px;text-align: center}
+  .pushing .dropdown .dropdown-open:before {background: #3d454e url(../../images/ico/ico-dropdown-open.png) center no-repeat;}

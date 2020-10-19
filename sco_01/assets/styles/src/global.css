@@ -1,0 +1,203 @@
+body{
+    font-size: 10px;
+    font-family: 'Lato';
+    color: #00508E;
+}
+/* ==========================================================================
+  text
+========================================================================== */
+h1{
+    font-size: 3.5em;
+}
+h2{
+    font-size: 2.5em;
+}
+p{
+    font-size: 1.8em;
+}
+/* ==========================================================================
+  color
+========================================================================== */
+.color-dark{
+    color: #3D454E;
+}
+.color-blue-light{
+    color: #23ADE7;
+}
+.color-blue{
+    color: #008DCB;
+}
+.color-blue-dark{
+    color: #00508E;
+}
+.color-yellow{
+    color: #FFF614;
+}
+.color-orange{
+    color: #FFC400;
+}
+.color-white{
+    color: #FFFFFF;
+}
+/* ==========================================================================
+  background
+========================================================================== */
+.back-dark{
+    background: #3D454E;
+}
+.back-blue-light{
+    background: #23ADE7;
+}
+.back-blue{
+    background: #008DCB;
+}
+.back-blue-dark{
+    background: #00508E;
+}
+.back-yellow{
+    background: #FFF614;
+}
+.back-orange{
+    background: #FFC400;
+}
+.back-white{
+    background: #FFFFFF;
+}
+.back-blue-top{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(37,101,255,1) 100%);
+}
+.back-blue-bottom{
+    background: rgb(205,236,250);
+    background: linear-gradient(0deg, rgba(205,236,250,1) 0%, rgba(255,255,255,1) 100%);
+
+}
+.back-yellow-bottom{
+    background: rgb(255,246,20);
+    background: linear-gradient(0deg, rgba(255,246,20,1) 0%, rgba(255,255,255,1) 100%);
+}
+/* ==========================================================================
+  header
+========================================================================== */
+header{
+    height: 578px;
+    position: relative;
+}
+header::after{
+    background: #2565FF;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 56px;
+    width: 100%;
+    z-index: -1;
+}
+header .dropdown .dropdown-open{
+    position: relative;
+}
+header .dropdown .dropdown-open::before{
+    content: '';
+    position: absolute;
+    background: url(../../images/ico/dropdown-header-open.png) center no-repeat;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 14px;
+    height: 9px;
+}
+header .dropdown.is-active .dropdown-open::before{
+    content: '';
+    position: absolute;
+    background: url(../../images/ico/dropdown-header-close.png) center no-repeat;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 14px;
+    height: 9px;
+}
+header .dropdown-open p{
+    font-size: 1.5em;
+    padding-left: 20px;
+    margin: 0;
+}
+
+header .dropdown-content p{
+    font-size: 1.5em;
+    border-bottom: solid 1px #FFF614;
+}
+header .dropdown-content ul li a{
+    font-size: 1.4em;
+    text-decoration: none;
+    transition: 300ms;
+}
+header .dropdown-content ul li{
+    padding-left: 30px;
+    position: relative;
+    padding-bottom: 4px;
+}
+header .dropdown-content ul li::before{
+    position: absolute;
+    content: '';
+    background: #0763A0;
+    width: 24px;
+    height: 18px;
+    left: 0;
+}
+header .dropdown-content ul li .checked::before{
+    position: absolute;
+    content: '';
+    background: #FFF614;
+    width: 24px;
+    height: 18px;
+    left: 0;
+}
+.header{
+    position: relative;
+}
+.header::before{
+    position: absolute;
+    content: '';
+    background: url(../../images/pht/pht-04.png) center no-repeat;
+    width: 1280px;
+    height: 530px;
+    z-index: 1;
+    left: calc(50% - 440px);
+}
+.header .header-back{
+    background: url(../../images/pht/pht-01.png) center no-repeat;
+    background-size: cover;
+    height: 479px;
+}
+.header .content-image{
+    position: absolute;
+    left: 40%;
+    top: 0;
+}
+.header h1{
+    font-size: 2.9em;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.header h2{
+    font-size: 2.3em;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+}
+header .btn-start {
+	border: none;
+	background: none;
+	width: 101px;
+	height: 72px;
+	cursor: pointer;
+	bottom: -35px;
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%);
+  	transition: 300ms ease;
+}
+
+header .btn-start:hover {
+	opacity: .75;
+}
